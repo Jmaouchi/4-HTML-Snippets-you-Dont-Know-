@@ -5,3 +5,41 @@
   background-color: black;
   color: white;
 }
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.snippet{
+  width: 100%;
+  margin: auto;
+  border-bottom: 2px solid rgb(137, 133, 133);
+  
+}
+
+h1{
+  background-color: rgb(196, 199, 199);
+  padding: 10px;
+  color: black;
+}
+
+
+h2{
+  color: rgb(128, 128, 242);
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: 26px;
+}
+
+marquee{
+  margin-bottom: 10px;
+  font-size: 25px; 
+}
